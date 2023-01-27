@@ -14,8 +14,18 @@ colours: page 16 & 18
     padding-left:7%;
 }
 
-#override-nav{
+#override-nav {
     --bs-nav-pills-link-active-bg: #00B0B9;
     --bs-nav-link-color: white;
     --bs-nav-link-hover-color: #00B0B9;
+}
+
+#override-login {
+    --bs-btn-color: white;
+    --bs-btn-border-color: #00B0B9;
+
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #00B0B9;
+    --bs-btn-hover-border-color: white;
+
 }
