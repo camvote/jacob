@@ -20,7 +20,7 @@ colours: page 16 & 18
     --bs-nav-link-hover-color: #00B0B9;
 }
 
-#override-login {
+#override-logout {
     --bs-btn-color: white;
     --bs-btn-border-color: #00B0B9;
 
