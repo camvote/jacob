@@ -14,6 +14,8 @@ colours: page 16 & 18
 #titlebar {
     color: white;
     padding:2%;
+    padding-left:0;
+    padding-right:0;
 }
 
 #override-nav {
