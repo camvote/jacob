@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  # Flask app
+  app:
+    build: ./app/
+    ports:
+      - 127.0.0.1:5000:5000
+    volumes:
+    - type: bind # For development, we pass through the existing files for ez reload
+      source: app/
+      target: /app/
+    depends_on:
+      - db
+    environment:
+      - FLASK_HOST=0.0.0.0
+
+  # Postgres DB
+  db:
+    image: postgres
+    volumes:
+      - dev_db_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=dev
+    expose:
+      - 5432 # visible to other containers only
+
+  # Admin panel for Postgres DB - DEVELOPMENT ONLY
+  # Use login credentials postgres/dev
+  adminer:
+    image: adminer
+    ports:
+      - 127.0.0.1:5001:8080
+
+volumes:
+  dev_db_data:
