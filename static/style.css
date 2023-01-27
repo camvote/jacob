@@ -28,4 +28,7 @@ colours: page 16 & 18
     --bs-btn-hover-bg: #00B0B9;
     --bs-btn-hover-border-color: white;
 
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: #00B0B9;
+    --bs-btn-active-border-color: #115E67;
 }
