@@ -5,12 +5,13 @@ colours: page 16 & 18
 */
 
 #titlebar {
-    text-align: center;
     background-color: #115E67;
     color: white;
-    border:0;
-    margin:0;
-    padding: 1.5%;
+    padding:2%;
+}
+
+#title-padding {
+    padding-left:7%;
 }
 
 #override-nav{
