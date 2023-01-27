@@ -5,6 +5,10 @@ services:
     build: ./app/
     ports:
       - 127.0.0.1:5000:5000
+    volumes:
+    - type: bind # For development, we pass through the existing files for ez reload
+      source: app/
+      target: /app/
     depends_on:
       - db
     environment:
