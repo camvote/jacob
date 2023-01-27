@@ -14,6 +14,8 @@ colours: page 16 & 18
 #titlebar {
     color: white;
     padding:2%;
+    padding-left:0;
+    padding-right:0;
 }
 
 #override-nav {
@@ -33,4 +35,8 @@ colours: page 16 & 18
     --bs-btn-active-color: white;
     --bs-btn-active-bg: #00B0B9;
     --bs-btn-active-border-color: #115E67;
+}
+
+#content {
+    margin-top: 0.75rem;
 }
