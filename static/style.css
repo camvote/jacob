@@ -4,11 +4,6 @@ https://www.cam.ac.uk/system/files/guidelines_v8_december_2019.pdf
 colours: page 16 & 18
 */
 
-body {
-    margin:0;
-    font-family: "myriad-semibold", sans-serif; /*Myriad is owned by Adobe, I do not have a copy of it*/
-}
-
 .titlebar {
     text-align: center;
     background-color: #115E67;
