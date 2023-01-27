@@ -34,3 +34,7 @@ colours: page 16 & 18
     --bs-btn-active-bg: #00B0B9;
     --bs-btn-active-border-color: #115E67;
 }
+
+#content {
+    margin-top: 0.75rem;
+}
