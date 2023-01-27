@@ -4,14 +4,16 @@ https://www.cam.ac.uk/system/files/guidelines_v8_december_2019.pdf
 colours: page 16 & 18
 */
 
-#titlebar {
+#titlebar-container {
     background-color: #115E67;
+    width:100%;
+    padding:0;
+    margin:0;
+    border:0;
+}
+#titlebar {
     color: white;
     padding:2%;
-}
-
-#title-padding {
-    padding-left:7%;
 }
 
 #override-nav {
@@ -28,4 +30,7 @@ colours: page 16 & 18
     --bs-btn-hover-bg: #00B0B9;
     --bs-btn-hover-border-color: white;
 
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: #00B0B9;
+    --bs-btn-active-border-color: #115E67;
 }
