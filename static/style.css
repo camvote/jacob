@@ -4,11 +4,17 @@ https://www.cam.ac.uk/system/files/guidelines_v8_december_2019.pdf
 colours: page 16 & 18
 */
 
-.titlebar {
+#titlebar {
     text-align: center;
     background-color: #115E67;
     color: white;
     border:0;
     margin:0;
-    padding: 3.5%;
+    padding: 1.5%;
+}
+
+#override-nav{
+    --bs-nav-pills-link-active-bg: #00B0B9;
+    --bs-nav-link-color: white;
+    --bs-nav-link-hover-color: #00B0B9;
 }
