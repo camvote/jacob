@@ -1,0 +1,31 @@
+/*
+Colours and guides given in:
+https://www.cam.ac.uk/system/files/guidelines_v8_december_2019.pdf
+colours: page 16 & 18
+*/
+
+#titlebar {
+    background-color: #115E67;
+    color: white;
+    padding:2%;
+}
+
+#title-padding {
+    padding-left:7%;
+}
+
+#override-nav {
+    --bs-nav-pills-link-active-bg: #00B0B9;
+    --bs-nav-link-color: white;
+    --bs-nav-link-hover-color: #00B0B9;
+}
+
+#override-logout {
+    --bs-btn-color: white;
+    --bs-btn-border-color: #00B0B9;
+
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #00B0B9;
+    --bs-btn-hover-border-color: white;
+
+}
